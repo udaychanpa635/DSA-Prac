@@ -1,7 +1,6 @@
 #include<iostream>
 #include<vector>
 #include<unordered_map>
-
 using namespace std;
 
 vector<int> twoSum(vector<int>& arr, int tar){
@@ -15,7 +14,7 @@ vector<int> twoSum(vector<int>& arr, int tar){
         if(m.find(sec) != m.end()){
             ans.push_back(i);
             ans.push_back(m[sec]);
-            break;
+               break;
         }
         m[first] = i;
     }
